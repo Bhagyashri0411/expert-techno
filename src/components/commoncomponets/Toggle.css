@@ -1,0 +1,153 @@
+@media screen and (min-width: 769px) {
+
+  .elements-bar.left {
+    transform-origin: left top;
+    transform: rotate(-90deg) translate(-50%, 0);
+    left: 4vh;
+  }
+}
+
+.elements-bar {
+  position: fixed;
+  top: 50%;
+  z-index: 50;
+  min-height: 3.5rem;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.-unlist {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.elements-bar>li {
+  padding: 0;
+}
+
+.-unlist>li {
+  margin: 0;
+  padding: 0;
+}
+
+.scroll-top {
+  margin-right: 1.5rem;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  transition: all cubic-bezier(.645, .045, .355, 1) .4s;
+}
+
+.hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.-small-t {
+  font-size: .95em;
+}
+
+.visible {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+@media screen and (min-width: 769px) {
+
+  .color-switcher {
+    min-width: 8rem;
+  }
+}
+
+.color-switcher {
+  font-weight: 500;
+  font-size: .85em;
+  position: relative;
+  height: 1.7rem;
+  background-color: rgba(150, 144, 162, .25);
+  border: 2px solid rgba(150, 144, 162, .15);
+  cursor: pointer;
+  border-radius: 0.85rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  transition: all cubic-bezier(.645, .045, .355, 1) .4s;
+}
+
+
+
+.color-switcher-item-state {
+  margin: 0;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-switcher-item-state>span {
+  line-height: 1;
+}
+
+
+
+@media screen and (min-width: 769px) {
+
+  .color-switcher-item-state svg {
+    margin-left: 0.2rem;
+    margin-right: -0.2rem;
+  }
+}
+
+.color-switcher-item-state svg {
+  fill: #161519;
+}
+
+.color-switcher-item,
+.color-switcher-toddler-item {
+  width: 100%;
+  height: 100%;
+  padding: 0 0.15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-switcher-toddler {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 1.7rem;
+  transition: all cubic-bezier(.645, .045, .355, 1) .4s;
+}
+
+.color-switcher-toddler-wrap {
+  position: relative;
+  height: 100%;
+}
+
+.color-switcher-toddler-item {
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  box-shadow: -3px 0px 6px rgba(17, 16, 19, .05);
+  color: initial;
+  border-radius: 0.85rem;
+}
+
+
+@media (min-width: 1200px){
+
+  .vc_hidden-lg {
+      display: none!important;
+  }
+}

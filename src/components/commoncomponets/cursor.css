@@ -1,0 +1,79 @@
+
+.circle-cursor-outer,
+a.button.-outlined:active,
+a.button.-outlined:focus,
+input[type=checkbox]:checked,
+input[type=radio]:checked,
+.button.-primary.-outlined,
+a.button.-primary.-outlined {
+  border-color: #ff5e3a;
+}
+
+.circle-cursor-outer {
+  margin-left: -15px;
+  margin-top: -15px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #dc2828;
+  z-index: 10000000;
+  opacity: .5;
+  -webkit-transition: all .1s ease-out;
+  -o-transition: all .1s ease-out;
+  transition: all .1s ease-out;
+}
+
+.circle-cursor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  visibility: hidden;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.circle-cursor-inner,
+.circle-cursor-inner.cursor-link-hover,
+.button:not(.-outlined):not(.-text):not(.-flat):not(.-primary):not(.-pagination):hover,
+.button:not(.-outlined):not(.-text):not(.-flat):not(.-primary):not(.-pagination):active,
+.button:not(.-outlined):not(.-text):not(.-flat):not(.-primary):not(.-pagination):focus,
+a.button:not(.-outlined):not(.-text):not(.-flat):not(.-primary):not(.-pagination):hover,
+a.button:not(.-outlined):not(.-text):not(.-flat):not(.-primary):not(.-pagination):active,
+a.button:not(.-outlined):not(.-text):not(.-flat):not(.-primary):not(.-pagination):focus,
+.widget_price_filter .ui-slider-range,
+.widget_price_filter .ui-slider-handle:after,
+input[type=checkbox]:checked,
+input[type=radio]:checked,
+.video-button:not(.-outlined):not(.-blurred) .icon-button:hover,
+.tag.tag-sale,
+.social-networks.-contained .network:hover,
+input[type=submit]:not(.-outlined):not(.-flat):not(.-text):not(.-primary):hover,
+.button.-primary:not(.-outlined):not(.-flat):not(.-text),
+a.button.-primary:not(.-outlined):not(.-flat):not(.-text),
+input[type=submit].-primary:not(.-outlined):not(.-flat):not(.-text),
+.icon-buttons-animation .icon-button:before {
+  background-color: #ff5e3a;
+}
+
+.circle-cursor-inner {
+  margin-left: -3px;
+  margin-top: -3px;
+  width: 6px;
+  height: 6px;
+  z-index: 10000001;
+  background-color: #dc2828;
+}
+
+.circle-cursor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  visibility: hidden;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
